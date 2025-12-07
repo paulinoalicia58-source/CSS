@@ -1,2 +1,2 @@
-# CSS
+# trabajos-gama
 mis trabajos 
