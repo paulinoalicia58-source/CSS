@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="imagen/jpg" href="img/newlogopng.png">
+
+    <hr>
+ <hr><h1 align="center">📊 Folmulario Personal 📊</h1><hr>
+
+</head>
+<body>
+    <form align="center" action="/submit" method="post">
+        <fieldset>
+
+        <label for="fname">Nombre Cmpleto</label><br>
+        <input type="text" name="fname" id="fname" required><br><br>
+
+        <label for="direction">Direccion</label><br>
+        <input type="textarea" name="direction" id="direction" required><br><br>
+
+        <label for="age">Edad</label><br>
+        <input type="number" name="age" id="age" min="15" required><br><br>
+
+        </fieldset>
+        <fieldset>
+        <legend>Informacion Adicional</legend>
+        <label for="genero">Genero</label><br>
+ <input type="radio" id="genero" name="genero" value="FEMENINO">
+        <label for="genero">FEMENINO</label><br>
+         <input type="radio" name="genero" id="genero" value="MASCULINO"> 
+         <label for="genero">MASCULINO</label><br><br>
+
+         <label for="passtime">Pasatiempo</label><br>
+         <input type="checkbox" name="passtime" id="passtime" value="Dibujar">
+         <label for="passtime">Dibujar</label><br>
+         <input type="checkbox" name="passtime" id="passtime" value="Cantar">
+         <label for="passtime">Cantar</label><br>
+         <input type="checkbox" name="passtime" id="passtime" value="Ver Peliculas">
+         <label for="passtime">Ver Peliculas</label><br>
+         <input type="checkbox" name="passtime" id="passtime" value="Dormir">
+         <label for="passtime">Dormir</label><br><br>
+
+         <label for="career">Carrera</label><br>
+         <select name="career" id="career" required>
+            <option value="">SELECCIONA</option>
+            <option value="EDUCADOR">Educador</option>
+      <option value="Albañil">Albañil</option>
+      <option value="Carpintero">Carpintero</option>
+      <option value="Actuar">Actuar</option>
+         </select><br><br>
+         <label for="email">Correo</label><br>
+         <input type="email" name="email" id="email" placeholder="Aquitu@email.com" required><br><br>
+           </fieldset>
+
+<button  type="submit">
+    Enviar Registro
+</button>
+
+    </form>
+</body>
+</html>

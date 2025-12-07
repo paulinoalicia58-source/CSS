@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOLMULARY</title>
+    <link rel="stylesheet" href="misProyectosCSS/folmulario.css">
+    <link rel="icon"  type="imagen/png"      href="img/newlogopng.png">
+</head>
+<body>
+    <div class="title">
+    <h1>REGISTRO DE ESTUDIANTES </h1>
+    </div>
+    <div class="form-contenedor">
+    <form  action="/submit" method="post">
+     <fieldset>
+
+    <label for="fname">Nombre Cmpleto</label><br>
+    <input type="text" name="fname" id="fname" required><br><br>
+
+    <label for="direction">DIRECION</label><br>
+    <input type="textarea" name="direction" id="direction" required><br><br>
+
+    <label for="telefono">TELEFONO</label><br>
+    <input type="tel" id="telefono" name="telefono"
+    placeholder="Ej: +34 600 123 456"
+    pattern="[0-9+\s()-]{6,20}" required><br><br>
+
+    <label for="age">EDAD</label><br>
+    <input type="number" name="age" id="age" min="15" required><br><br>
+    
+    <label for="area">AREA</label><br>
+    <select name="area" id="area" required>
+    <option value="">SELECCIONA</option>
+    <option value="ENFERMERIA">Enfermeria</option>
+    <option value="CONTABILIDAD">Contabilidad</option>
+    <option value="GASTRONOMIA">Gastronomia</option>
+    <option value="INFORMATICA">Informatica</option>
+    </select><br><br>
+
+    <label for="genero">GENERO</label><br>
+    <select name="genero" id="genero">
+    <option value="">SELECCIONA</option>
+    <option value="FEMENINO">Femenino</option>
+    <option value="MASCULINO">Masculino</option>
+    </select><br><br>
+
+    <label for="course">CURSO</label><br>
+    <input type="radio" id="course" name="course" value="4to">
+    <label for="course">4to</label><br>
+    <input type="radio" name="course" id="course" value="5to"> 
+    <label for="course">5to</label><br>
+    <input type="radio" id="course" name="course" value="6to">
+    <label for="course">6to</label><br><br>
+
+
+
+    <label for="email">E-MAIL</label><br>
+    <input type="email" name="email" id="email" placeholder="Aquitu@email.com" required><br><br>
+</fieldset>
+
+
+    </div>
+
+    
+<footer>
+
+    Dilianna ©
+</footer>
+</body>
+</html>
